@@ -12,10 +12,9 @@
         android:id="@+id/txtquote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
+        android:layout_margin="@dimen/_12sdp"
+        android:textSize="@dimen/_11sdp"
         android:letterSpacing=".3"
-        android:textColor="@color/black"
-        android:textSize="14dp"
         android:textStyle="bold" />
 
 </androidx.cardview.widget.CardView>

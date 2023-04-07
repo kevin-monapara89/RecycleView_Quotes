@@ -12,6 +12,9 @@
         android:theme="@style/Theme.RecycleView1"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.ActivityQuotes"
+            android:exported="false" />
+        <activity
             android:name=".Activities.MainActivity"
             android:exported="true">
             <intent-filter>
